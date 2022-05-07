@@ -30,7 +30,33 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+
+    
 }
+header a:link,
+header a:visited,
+header a:active {
+    text-decoration: none; 
+    color: #ff6a95;
+}
+
+header a:hover {
+    text-decoration: none; 
+    color: #fff;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none; 
+    color: #ff6a95;
+}
+
+a:hover {
+    text-decoration: none; 
+    color: #c9617e;
+}
+
 
 .card {
   background-color: #fff;
